@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /posts/*.html
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+
+Sitemap: https://didudia.github.io/sitemap.xml
+Sitemap: https://didudia.github.io/baidusitemap.xml
