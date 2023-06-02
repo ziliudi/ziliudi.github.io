@@ -1,18 +1,36 @@
-# Aragaki
-这是一款极简 Bitcron 博客主题：「Aragaki」。
+# Fantasy
+一款极简Typecho 博客主题
 
-详细介绍页：https://www.mywpku.com/aragaki.html
+详细介绍页：https://www.krsay.com/typecho/fantasy.html
 
-演示地址：https://oqo.moe
+<s>演示地址：https://www.krsay.com~</s>
 
-![screenshot](screenshots/aragaki.png)
+![screenshot](screenshot.png)
 
-## 其它版本
+>1.4.2
 
-Typecho: https://github.com/Seevil/fantasy @[Seevil](https://github.com/Seevil)
+avatar 头像cdn修改
 
-GoMD: https://gitee.com/xuthus5/GoMD @[xuthus](https://gitee.com/xuthus5)
+远程文件本地化
+
+增加搜索功能
+
+修复评论审核
+
+回复加@功能修复
+
+增强1.2.0 php8 兼容性 和其他优化
+
+>1.4.1
+
+兼容1.2和php8 
+细节文字微调
+
+>1.4.0 更新细节及友情链接设置方法见：
+
+https://www.krsay.com/typecho/fantasy-1-4-0.html
 
 # License
 
-「Aragaki」修改自 水八口 / Shuibaco 原创的 Bitcron 主题 「[Hello](https://github.com/shuibaco/bitcron-themes/tree/master/01%20hello)」，使用前请阅读 [版权声明](https://github.com/shuibaco/bitcron-themes)
+
+「Fantasy」移植自PCDotFan 的 Bitcron 主题 「[Aragaki](https://github.com/pcdotfan/Aragaki)」
