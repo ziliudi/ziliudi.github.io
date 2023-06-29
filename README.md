@@ -7,12 +7,14 @@
 
 
 
-[雨一直下](https://github.com/ziliudi/ziliudi/blob/main/2.md)
+[雨一直下](https://github.com/ziliudi/ziliudi/blob/main/%E9%9B%A8%E4%B8%80%E7%9B%B4%E4%B8%8B.md)
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023年的雨比往年来得更晚一些。</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在一个星期以前，大地已经干涸了七八个月，期间不咸不淡地下过几场雨，甚至一直雨纷纷的清明节都意外地艳阳高照。地里的庄稼都快渴死了，持续的高温让整个高原热的像高炉，人们、动物们、植物们都在期待一场大雨。</p>
 
+[全文](https://github.com/ziliudi/ziliudi/blob/main/%E9%9B%A8%E4%B8%80%E7%9B%B4%E4%B8%8B.md)
 
 
 
-[随便](https://www.freecodecamp.org/chinese/news/what-is-a-hyperlink-definition-for-beginners/)
+
+
