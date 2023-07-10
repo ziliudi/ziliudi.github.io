@@ -3907,3 +3907,7 @@ input, select, textarea {
 			}
 
 		}
+		#header .title, #header nav a {
+    font-size: 20px;
+    color: white;
+}
