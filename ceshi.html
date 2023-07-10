@@ -125,7 +125,7 @@
 </div>
 <script>
 // 抓取RSS源
-fetch('<https://xn--wgv445f.xn--1kvy18f.xn--6qq986b3xl/feeds/posts/default>')
+fetch('https://xn--wgv445f.xn--1kvy18f.xn--6qq986b3xl/feeds/posts/default')
   .then(response => response.text())
   .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
   .then(data => {
