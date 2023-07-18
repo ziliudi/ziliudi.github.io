@@ -22,6 +22,20 @@
 						
 					</ul>
 				</nav>
+				<!-- 添加 style 标签 -->
+    <style>
+        .vemail:before {
+            content: "（选填）";
+            color: #999;
+            margin-right: 5px;
+        }
+
+        .vlink:before {
+            content: "（选填）";
+            color: #999;
+            margin-right: 5px;
+        }
+    </style>
 			</header>
 
 		<!-- Wrapper -->
@@ -67,24 +81,21 @@
 			</div>
 
 	
-		<!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81NzU2Mi8zNDAyNg==">
-<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
+		<!-- 引入 Valine 的 js 文件 -->
+<script src="https://cdn.jsdelivr.net/gh/ziliudi/ziliudi.github.io/js/valine.min.js"></script>
 
-       if (typeof LivereTower === 'function') { return; }
+<!-- 在页面中添加一个评论容器 -->
+<div id="vcomments"></div>
 
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
+<!-- 初始化 Valine -->
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'HvX4f07aVfJsoDTagtDUaHPC-MdYXbMMI',
+        appKey: 'qhLV9nS7tJggOsvuTFKhTiZR',
+        placeholder: '欢迎留言！'
+    });
 </script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
