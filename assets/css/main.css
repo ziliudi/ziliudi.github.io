@@ -3411,7 +3411,7 @@ input, select, textarea {
 						border: 0;
 						color: rgba(255, 255, 255, 0.35);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 1.25em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
@@ -3909,5 +3909,5 @@ input, select, textarea {
 		}
 		#header .title, #header nav a {
     font-size: 20px;
-    color: white;
+    color: black;
 }
