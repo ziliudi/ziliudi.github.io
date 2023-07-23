@@ -3409,7 +3409,7 @@ input, select, textarea {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						color: black;
 						display: inline-block;
 						font-size: 1.25em;
 						font-weight: bold;
