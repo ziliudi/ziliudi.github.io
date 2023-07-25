@@ -111,7 +111,31 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+<script>
+    // 通过淘宝IP地址库获取用户的 IP 地址和省份
+    var url = "http://ip.taobao.com/service/getIpInfo.php?ip=" + ip;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        // 解析返回的 JSON 数据
+        var data = JSON.parse(xhr.responseText);
+        // 获取用户的 IP 地址
+        var ip = data.data.ip;
+        // 获取用户的省份
+        var province = data.data.region;
+        // 判断用户是否来自特定的省份，例如北京
+        if (province === "云南") {
+          // 允许访问网站
+          alert("欢迎访问网站！");
+        } else {
+          // 拒绝访问网站
+          alert("对不起，您所在的地区无法访问本网站！");
+        }
+      }
+    };
+    xhr.send();
+  </script>
 	</body>
 	<p id="time"></p>
 
