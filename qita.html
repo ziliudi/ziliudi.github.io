@@ -113,18 +113,31 @@
 			<script src="assets/js/main.js"></script>
 <script type="text/javascript" src="http://pv.sohu.com/cityjson"></script>
 <script>
-var province=localAddress.province;//获取所在省，比如广东省
-var city=localAddress.city;//获取所在市，比如广州市
-//判断省
-if(province.indexOf('云南')  != -1){
-    alert(province);    
-    }else{
-        }
-//判断市
-if(city.indexOf('大理')  != -1){
-    alert(city);    
-    }else{
-        }
+// 允许访问的地区
+const allowedLocations = ['云南', '香港', '新加坡', '日本'];
+
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request));
+});
+
+async function handleRequest(request) {
+  // 获取客户端IP地址
+  const ip = request.headers.get('CF-Connecting-IP');
+  // 获取IP地址对应的地理位置信息
+  const response = await fetch(`http://ip.taobao.com/service/getIpInfo.php?ip=${ip}`);
+  const data = await response.json();
+  
+
+  // 检查地理位置是否在允许访问的地区内
+  if (data && allowedLocations.includes(data.regionName)) {
+    // 允许访问
+    return new Response('欢迎访问我们的网站！', { status: 200 });
+  } else {
+    // 拒绝访问
+    return new Response('抱歉，您所在的地区无法访问我们的网站。', { status: 403 });
+  }
+}
+
 </script>
 	</body>
 	<p id="time"></p>
